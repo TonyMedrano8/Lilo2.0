@@ -1,0 +1,55 @@
+:root {
+    --color-principal: #205375;
+    --color-secundario: #F66B0E;
+    --color-oscuro: #112B3C;
+    --color-claro: #EFEFEF;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    font-size: 8rem;
+}
+
+header {
+    background-color: var(--color-principal);
+}
+
+main {
+    background-color: var(--color-claro);
+}
+
+footer {
+    background-color: var(--color-oscuro);
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+}
+
+.header__eslogan {
+    font-size: 10rem;
+    text-align: center;
+    color: var(--color-claro);
+}
+
+.header__nav {
+    padding: 0 1rem;
+}
+
+.header__nav__link {
+    display: inline-block;
+    justify-content: center;
+    padding: 0 auto;
+    font-size: 6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-claro);
+}
+
+
